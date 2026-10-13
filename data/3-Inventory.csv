@@ -1,0 +1,13 @@
+Inventory Name,Location,Item,On Hand Quantity,Average Daily Usage,Safety Stock
+Riverside Warehouse - Organic Flour,Riverside Warehouse,Organic Flour,90,6,50
+Riverside Warehouse - Extra-Virgin Olive Oil,Riverside Warehouse,Extra-Virgin Olive Oil,220,3,40
+Riverside Warehouse - Frozen Salmon,Riverside Warehouse,Frozen Salmon,60,4,15
+Pine Ridge DC - Whole Milk,Pine Ridge DC,Whole Milk,400,20,100
+Pine Ridge DC - To-Go Containers,Pine Ridge DC,To-Go Containers,500,15,100
+Downtown Store - Whole Milk,Downtown Store,Whole Milk,30,8,10
+Downtown Store - Organic Flour,Downtown Store,Organic Flour,10,4,8
+Harbor Kitchen - Frozen Salmon,Harbor Kitchen,Frozen Salmon,6,3,4
+Harbor Kitchen - Extra-Virgin Olive Oil,Harbor Kitchen,Extra-Virgin Olive Oil,10,2,5
+Lakeside Store - Organic Flour,Lakeside Store,Organic Flour,40,5,15
+Lakeside Store - Whole Milk,Lakeside Store,Whole Milk,20,5,8
+Midtown Store - To-Go Containers,Midtown Store,To-Go Containers,300,12,50

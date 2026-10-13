@@ -1,0 +1,6 @@
+Item Name,SKU,Category,Unit,Standard Reorder Quantity,Perishable,Shelf Life (Days)
+Organic Flour,FL-1001,Dry Goods,Case,20,No,365
+Extra-Virgin Olive Oil,OO-2003,Dry Goods,Case,15,No,540
+Whole Milk,DA-3007,Dairy,Case,30,Yes,10
+Frozen Salmon,FZ-4012,Frozen,Case,10,Yes,180
+To-Go Containers,PK-5005,Packaging,Case,50,No,730

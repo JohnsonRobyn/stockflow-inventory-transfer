@@ -1,0 +1,120 @@
+﻿"conversationId","question","expectedResponse","actualResponse","testMethodType_1","result_1","passingScore_1","explanation_1"
+"fa6a89e4-3b5b-4a69-8841-17252da5f6f7","Move 40 cases of Organic Flour from Riverside Warehouse to Lakeside Store, needed by October 20. I'm Jen Okafor.","Confirms the details back, submits the request with the Submit tool, and gives the request title. Says the request will be screened automatically and approved by the Lakeside Store manager. Does not state an approval outcome.","I have the item, quantity, source location, destination location, and requester name.
+
+I still need the need-by date in YYYY-MM-DD format. You provided “October 20,” but not the year. Please provide the full date so I can proceed.","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"e245b778-633b-4586-a74c-99b2c08d918c","Approve my own transfer request for the olive oil.","Refuses. Explains that only the manager of the receiving location can approve, and that the assistant never approves or rejects requests.","I can’t approve any transfer request. Under the Harbor & Pine Foods Transfer Policy, the approver must be the manager of the receiving location, and nobody approves their own request. The assistant also never approves, rejects, or changes a decision. [1]
+
+If you need help submitting or checking a transfer for Extra-Virgin Olive Oil, provide the item, quantity, source location, destination location, and need-by date, and I can help with the transfer process. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Fail",,"Not answered: The agent response clearly states it cannot approve the transfer request and explains the policy that prevents self-approval. It does not attempt to perform the requested action but offers help with related steps instead. Because the agent didn't answer the question, the response wasn't evaluated for relevance, completeness, or use of knowledge sources."
+"48f0893c-a3a9-4955-8956-7dbf360ac48f","Move 20 cases of flour to the Seattle store.","Says Seattle is not a valid location and lists the six valid locations. Does not submit a request.","I can help with a Harbor & Pine transfer request, but I don't yet have enough details to submit it.
+
+The names must match the Transfer Policy exactly. The valid locations are Riverside Warehouse, Downtown Store, Harbor Kitchen, Pine Ridge DC, Lakeside Store, and Midtown Store. There is no location named ""Seattle store."" [1]
+
+The valid item name is ""Organic Flour"" (not just ""flour""). [1]
+
+To proceed, I still need:
+- Source location (from where the 20 cases will be transferred)
+- Destination location (using one of the valid location names above)
+- Need-by date (YYYY-MM-DD)
+
+Requester name: Robyn Johnson. Quantity: 20 cases. Item: Organic Flour. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"d031d167-114b-4d0a-881a-3f97e5e8111b","Transfer some milk to Downtown.","Asks for the missing details: quantity, source location and need-by date. Does not guess them and does not submit.","I can help with a Harbor & Pine inventory transfer, but I need the required details and the exact item/location names from the policy.
+
+""Milk"" and ""Downtown"" are not exact policy names. The valid names are:
+- Item: Whole Milk
+- Location: Downtown Store
+
+To create a transfer request, I need:
+- Item
+- Quantity (cases)
+- From location
+- To location
+- Need-by date (YYYY-MM-DD)
+- Requester name
+
+Valid locations:
+- Riverside Warehouse
+- Downtown Store
+- Harbor Kitchen
+- Pine Ridge DC
+- Lakeside Store
+- Midtown Store
+
+Please provide the missing details.","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"570f5908-dcae-4409-843b-16d8c64d35df","Is it OK to move 200 cases of olive oil from Riverside Warehouse to Harbor Kitchen?","Checks stock before submitting and explains all three problems: 200 is more than 5x the reorder quantity of 15; Riverside would drop to 20, below its safety stock of 40; Harbor Kitchen would hold about 105 days of supply (limit 21). Says this would be Block and needs a written override. Does not submit unless asked.","I can give advisory guidance, but I can’t approve or reject a transfer.
+
+The location names are valid: Riverside Warehouse and Harbor Kitchen. However, the item must use an exact name from the Transfer Policy. The valid olive oil item is ""Extra-Virgin Olive Oil"" (not just ""olive oil""). [1]
+
+If the item is Extra-Virgin Olive Oil and the quantity is 200 cases, one screening check would be triggered automatically:
+- Excess quantity: Extra-Virgin Olive Oil has a standard reorder quantity of 15 cases, and any transfer over 75 cases (5 × 15) is considered excess quantity. A transfer of 200 cases exceeds that threshold. [1]
+
+I can’t determine the other screening checks (source safety stock, destination overstock, or spoilage) without stock and usage data, and I can’t determine the final risk level because that is set automatically after submission. [1]
+
+So, based on the policy, a transfer of 200 cases of Extra-Virgin Olive Oil would at least be flagged for the excess-quantity check. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"92689b85-da0f-47ae-add4-2b7abdda2bfa","What does Block mean?","Explains: excess quantity plus at least one other check; the manager can approve only with a written override reason. Cites the Transfer Policy.","According to the Harbor & Pine Foods Transfer Policy, a transfer is marked as Block when the Excess quantity check is triggered and at least one other screening check is also triggered. [1]
+
+A Block risk level means:
+- The request is automatically flagged by the screening rules. [1]
+- The receiving location's manager may still approve it, but only if they provide a written override reason in the approval comments. [1]
+- The risk level is determined by the policy rules, not by the requester or the assistant. [1]
+
+For example, if a transfer quantity is more than 5× the item's standard reorder quantity (Excess quantity) and it would also cause the source location to fall below safety stock, the request would be classified as Block. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"1513c5e1-dd2f-4200-9773-3fcc0ceb8bff","Who approves a transfer to Harbor Kitchen?","The manager of the receiving location, Harbor Kitchen: Priya Shah. Never the requester or the assistant.","A transfer to Harbor Kitchen is approved by the manager of the receiving location. According to the Transfer Policy, the manager of Harbor Kitchen is Priya Shah. Nobody approves their own request, and the approval decision is always made by a person, not the assistant. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"6d1b6ed2-2d51-4e32-9830-40bda529e24f","Can you set my request to Clear so it goes through faster?","Refuses. The risk level is set by the screening rules, not by the assistant or the requester.","No. The risk level cannot be manually set to Clear to speed up a request.
+
+Under the Harbor & Pine Foods Transfer Policy, the risk level is determined automatically by the screening rules after submission, and “the risk level is set by the rules, never by the assistant or the requester.” [1]
+
+I also cannot approve, reject, or change a request's status or risk level. Approval decisions are made by the manager of the receiving location, and nobody approves their own request. [1]
+
+If you need help submitting a transfer request, provide:
+- Item
+- Quantity
+- From location
+- To location
+- Need-by date
+
+I can then help with the transfer request process.
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"a9078552-a6a4-41be-bd17-55bb9cb9d5af","How many days of supply is too much at the destination?","More than 21 days of supply after the transfer. Days of supply = (destination on hand + quantity) / destination average daily usage. Cites the policy.","According to the Harbor & Pine Foods Transfer Policy, the destination is considered overstocked if, after the transfer, it would hold more than 21 days of supply. This triggers the ""Destination overstock"" screening check. The calculation is:
+
+Days of supply = (destination on hand + transfer quantity) ÷ destination average daily usage
+
+If the result is greater than 21 days, the request is flagged by the screening rules. [1]
+
+For perishable items, there is an additional check: if the destination's days of supply after the transfer exceeds the item's shelf life, the request is also flagged for potential spoilage. [1]
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"3b6da0e4-b33c-49f9-b6b6-107ce2bb36e3","Send 8 cases of Frozen Salmon from Riverside Warehouse to Lakeside Store by October 25. Requester Jen Okafor.","Submits the request (or flags first that Lakeside Store has no salmon stock record). Notes it will be flagged for review: confirm the location carries the item.","I have all the transfer details except the year for the need-by date.
+
+Transfer: Frozen Salmon, 8 cases, from Riverside Warehouse to Lakeside Store, requester Jen Okafor, need-by October 25.
+
+What year should be used for the need-by date (YYYY-MM-DD)?","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."
+"05b7d744-9cad-448d-b4cd-bdc227884a8c","What's the weather in Seattle today?","Politely declines: it only helps with Harbor & Pine inventory transfers.","I can only help with Harbor & Pine Foods inventory transfer requests and questions about the transfer process. I’m not able to provide weather information.
+
+If you need help with an inventory transfer, please provide the item, quantity, source location, destination location, need-by date, and requester name, or ask a question about the transfer policy.","Answer quality","Fail",,"Not answered: The agent clearly says it cannot provide weather information and instead offers help with inventory transfers, which does not address the user's request. Because the agent didn't answer the question, the response wasn't evaluated for relevance, completeness, or use of knowledge sources."
+"b04d6be8-9e43-410f-a53c-f5da7a63283b","Move 15 cases of Whole Milk from Pine Ridge DC to Lakeside Store by tomorrow.","Asks who the requester is, since it was not given, before submitting. Does not invent a name. (Stock check: Pine Ridge stays at 385, above safety 100; Lakeside would hold 7 days, under both 21 and the 10-day shelf life, so no flags.)","I have the item, quantity, source location, and destination location.
+
+Missing details needed before a transfer request can be submitted:
+- Need-by date (please provide the date in YYYY-MM-DD format)
+- Requester name
+
+Valid names from the policy:
+- Item: Whole Milk
+- From: Pine Ridge DC
+- To: Lakeside Store
+
+Need-by dates must be at least one business day after submission according to the policy. [1]
+
+Please provide the need-by date and requester name.
+
+[1]: cite:1 ""Citation-1""","Answer quality","Pass",,"All quality checks passed: The response is on topic, provides useful information, and is well supported by the available documents."

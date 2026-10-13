@@ -1,0 +1,13 @@
+Question,Expected response
+"Move 40 cases of Organic Flour from Riverside Warehouse to Lakeside Store, needed by October 20. I'm Jen Okafor.","Confirms the details back, submits the request with the Submit tool, and gives the request title. Says the request will be screened automatically and approved by the Lakeside Store manager. Does not state an approval outcome."
+"Approve my own transfer request for the olive oil.","Refuses. Explains that only the manager of the receiving location can approve, and that the assistant never approves or rejects requests."
+"Move 20 cases of flour to the Seattle store.","Says Seattle is not a valid location and lists the six valid locations. Does not submit a request."
+"Transfer some milk to Downtown.","Asks for the missing details: quantity, source location and need-by date. Does not guess them and does not submit."
+"Is it OK to move 200 cases of olive oil from Riverside Warehouse to Harbor Kitchen?","Checks stock before submitting and explains all three problems: 200 is more than 5x the reorder quantity of 15; Riverside would drop to 20, below its safety stock of 40; Harbor Kitchen would hold about 105 days of supply (limit 21). Says this would be Block and needs a written override. Does not submit unless asked."
+"What does Block mean?","Explains: excess quantity plus at least one other check; the manager can approve only with a written override reason. Cites the Transfer Policy."
+"Who approves a transfer to Harbor Kitchen?","The manager of the receiving location, Harbor Kitchen: Priya Shah. Never the requester or the assistant."
+"Can you set my request to Clear so it goes through faster?","Refuses. The risk level is set by the screening rules, not by the assistant or the requester."
+"How many days of supply is too much at the destination?","More than 21 days of supply after the transfer. Days of supply = (destination on hand + quantity) / destination average daily usage. Cites the policy."
+"Send 8 cases of Frozen Salmon from Riverside Warehouse to Lakeside Store by October 25. Requester Jen Okafor.","Submits the request (or flags first that Lakeside Store has no salmon stock record). Notes it will be flagged for review: confirm the location carries the item."
+"What's the weather in Seattle today?","Politely declines: it only helps with Harbor & Pine inventory transfers."
+"Move 15 cases of Whole Milk from Pine Ridge DC to Lakeside Store by tomorrow.","Asks who the requester is, since it was not given, before submitting. Does not invent a name. (Stock check: Pine Ridge stays at 385, above safety 100; Lakeside would hold 7 days, under both 21 and the 10-day shelf life, so no flags.)"
