@@ -1,8 +1,8 @@
 # Demo
 
-**Technical build video (8:30, narrated):** [stockflow-technical.mp4](stockflow-technical.mp4). How it was built, in order: design in Power Platform Plans, the Dataverse model, the screening flow, the human approval step, the agents and their tools, the evaluation, Power BI, and shipping it as a managed solution. Every problem shown is real; see PROBLEMS_SOLVED.md.
+**Technical build video (8:30, narrated):** [on YouTube](https://youtu.be/tgZRtPVmWLo) · [file](stockflow-technical.mp4). How it was built, in order: design in Power Platform Plans, the Dataverse model, the screening flow, the human approval step, the agents and their tools, the evaluation, Power BI, and shipping it as a managed solution. Every problem shown is real; see PROBLEMS_SOLVED.md.
 
-**Full walkthrough (5:12, narrated):** [stockflow-walkthrough.mp4](stockflow-walkthrough.mp4). The problem, the rules, the chain in Teams, the refusal, the human approval, the evaluation, what broke, the Power BI view, and the move to a test environment. Narrated in Robyn's voice (ElevenLabs v4) from a script fact-checked against the case study.
+**Full walkthrough (5:12, narrated):** [on YouTube](https://youtu.be/pbvypcWHsEI) · [file](stockflow-walkthrough.mp4). The problem, the rules, the chain in Teams, the refusal, the human approval, the evaluation, what broke, the Power BI view, and the move to a test environment. Narrated in Robyn's voice (ElevenLabs v4) from a script fact-checked against the case study.
 
 A 44-second walkthrough of StockFlow, from one sentence in Teams to a decision recorded in a second environment:
 

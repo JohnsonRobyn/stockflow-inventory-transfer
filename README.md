@@ -8,7 +8,7 @@
 
 ![One sentence in Teams, four checks back, then submitted](screenshots/fig-chain-teams.png)
 
-**▶ [Watch the 5-minute narrated walkthrough](demo/stockflow-walkthrough.mp4)** · [44-second highlight](demo/stockflow-demo.mp4) · [8-minute technical build video](demo/stockflow-technical.mp4)
+**▶ [Watch the 5-minute narrated walkthrough on YouTube](https://youtu.be/pbvypcWHsEI)** · [8-minute technical build video](https://youtu.be/tgZRtPVmWLo) · [44-second highlight](demo/stockflow-demo.mp4)
 
 ## The problem → the result
 - **Problem:** Transfers between locations travel by email and spreadsheet. The dangerous request is the one that looks fine on a form: it drains the source below its safety stock, buries the destination in weeks of supply, or ships a perishable item that will spoil. A planner catches these by instinct; a form never does.
