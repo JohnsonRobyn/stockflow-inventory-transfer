@@ -18,4 +18,4 @@ A 44-second walkthrough of StockFlow, from one sentence in Teams to a decision r
 
 [![Demo video](poster.jpg)](stockflow-demo.mp4)
 
-*All Harbor & Pine Foods data on screen is fictional. Built Oct 11, 2026 from build recordings and screenshots (Oct 1 to Oct 11); account identifiers cropped out. Rebuild with `python _internal/build_demo.py`.*
+*All Harbor & Pine Foods data on screen is fictional. Built Oct 11, 2026 from build recordings and screenshots (Oct 1 to Oct 11); account identifiers cropped out.*

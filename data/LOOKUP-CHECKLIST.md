@@ -1,4 +1,6 @@
-# Lookup checklist: pick these in the grid after importing the NO-LOOKUPS files
+# Lookup checklist
+
+After importing `3-Inventory-NO-LOOKUPS.xlsx`, set the Location and Item lookups on each row in the grid. The rule: the part before the dash is the Location, the part after it is the Item.
 
 ## Inventory (12 rows)
 | # | Inventory Name | Location | Item |
@@ -15,10 +17,3 @@
 | 10 | Lakeside Store - Organic Flour | Lakeside Store | Organic Flour |
 | 11 | Lakeside Store - Whole Milk | Lakeside Store | Whole Milk |
 | 12 | Midtown Store - To-Go Containers | Midtown Store | To-Go Containers |
-
-## Transfer Request (3 rows)
-| Request Title | Item | From Location | To Location |
-|---|---|---|---|
-| Whole Milk x12: Pine Ridge DC to Downtown Store | Whole Milk | Pine Ridge DC | Downtown Store |
-| Frozen Salmon x8: Riverside Warehouse to Harbor Kitchen | Frozen Salmon | Riverside Warehouse | Harbor Kitchen |
-| Organic Flour x25: Riverside Warehouse to Lakeside Store | Organic Flour | Riverside Warehouse | Lakeside Store |
