@@ -4,12 +4,13 @@
 
 *A governed transfer system where fixed supply-chain rules screen every request before a person approves it, built on the Microsoft Power Platform with Copilot Studio agents.*
 *Harbor & Pine Foods, a regional food distributor with six locations (a warehouse, a distribution centre, three stores and a kitchen), is fictional, as are all data and scenarios. All evaluation results are real.*
+*An independent portfolio project, built outside my employment.*
 
 ## Summary
 
 StockFlow runs every stock transfer request through four written supply-chain checks, assigns a risk level with a note explaining it, then stops and waits for a person to decide. Three Copilot Studio agents sit in front of the rules (one helps staff submit, one explains the risk before a request exists, one briefs the approving manager), and a Power BI view sits behind them for the planner. The thesis is one line: **the rules decide; the agents explain; a person approves.**
 
-What sets it apart is that it was proven at every layer: five of five rule scenarios matched their expected results; the staff-facing agent scored 83% → 92% → 100% on one 12-case test set, each step explained by a specific change; the whole chain ran end to end from a Teams chat; and the system moved from development to test as one managed package and was proven again there, with nothing rebuilt by hand.
+What sets it apart is that it was tested at every layer: five of five rule scenarios matched their expected results; on one 12-case test set, 12 of 12 cases passed in the final evaluation configuration, after earlier runs of 83% and 92% in which the grader as well as the agent changed, each step explained by a specific change; the whole chain ran end to end from a Teams chat; and the system moved from development to test as one managed package and was proven again there, with nothing rebuilt by hand.
 
 ## The problem
 
@@ -107,6 +108,14 @@ Then the same request as development, 40 cases of Organic Flour from Riverside t
 - **Behind Microsoft Entra sign-in**, inside the tenant, through the Teams and Microsoft 365 channel.
 - **Author credentials, flagged.** The tools run with the author's credentials today, which is fine for a one-person development tenant; production would switch each to end-user credentials.
 - **Dates handled explicitly.** Need By Date is time-zone independent, after agent-created rows displayed a day early.
+
+## Known limitations
+
+- **A portfolio system, not a production one.** Built and tested in a one-person development environment and a sandbox test environment, with fictional data.
+- **The dashboard is not shared.** The Power BI report runs in Power BI Desktop, not a shared workspace with access controls.
+- **Approval does not move stock.** An approved transfer records the decision; there is no shipping or receipt step that updates inventory.
+- **Spoilage is checked only at request time.** Stock already held past its shelf life is not flagged until someone requests a transfer.
+- **The evaluation is a fixed test set.** 12 cases describe behaviour on those requests only and do not establish reliability across all possible requests.
 
 ## What I would do next
 
